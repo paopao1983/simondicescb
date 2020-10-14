@@ -18,4 +18,4 @@ Si deseas realizaar algun ajuste o mejora bienvenida es. Para esto, realiza un F
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Sandra Castro** - *Trabajo Inicial* - [paopao1983](https://gitlab.com/paopao1983)
+* **Sandra Castro** - *Trabajo Inicial* - [paopao1983] (https://www.linkedin.com/in/paopao1983/)
