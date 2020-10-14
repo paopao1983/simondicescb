@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  .gameboard {
+          height: 100vh;
+          width: 100vh;
+          overflow: hidden;
+          margin: 0 auto;
+          max-height: 60vh;
+          max-width: 60vh;
+          position: absolute;
+        }
+  .color {
+          width: 50%;
+          height: 50%;
+          display: inline-block;
+        }
+
+  .left {
+          float: left;
+        }
+  .right {
+          float: left;
+        }
+  .verdeazul {
+        background: #22a6b3;
+        border-bottom-left-radius: 10rem;
+        border-top-right-radius : 10rem;
+      }
+
+  .verdeazul.light {
+        background: #7ed6df;
+   }
+  .fuccia {
+        border-top-left-radius: 10rem;
+        border-bottom-right-radius : 10rem;
+        background: #be2edd;
+    }
+
+  .fuccia.light {
+    background: #e056fd;
+  }
+
+  .naranja {
+    background: #f0932b;
+    border-top-left-radius: 10rem;
+    border-bottom-right-radius : 10rem;
+  }
+
+  .naranja.light {
+    background: #ffbe76;
+  }
+
+  .verde {
+    background: #6ab04c;
+    border-top-right-radius: 10rem;
+    border-bottom-left-radius : 10rem;
+  }
+
+  .verde.light {
+    background: #badc58;
+  }
+  .btn-start {
+    width: 300px;
+    height: 100px;
+    color: white;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 155px);
+    background: rgba(180, 0, 0, 0.85);
+  }
+
+  .hide {
+    display: none;
+  }
+  * {
+    font-family: fantasy;
+  }
+  p {
+    color: white;
+    text-indent: 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #level{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:gold;
+  }
+  div.relative {
+    position: relative;
+    width: 750px;
+    height: 580px;
+    left: 30%;
+    border: 0px solid #73AD21;
+    align-items: center;
+  }
+
+  div.absolute {
+    position: absolute;
+    top: 0%;
+    right: -10%;
+    width: 160px;
+    height: 140px;
+    border: 1px solid white;
+  }   
